@@ -4,7 +4,6 @@ def oxford_comma(array)
   elsif array.length==2
     array.join(" and ")
   elsif array.length>2
-
+    last_element=array[-1]
   end
-  array.join(", ")
 end
